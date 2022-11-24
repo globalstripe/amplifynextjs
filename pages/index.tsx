@@ -17,6 +17,9 @@ export default function Home() {
           <h1 className={styles.title}>
           Latest Commit by Chris Clark
           </h1>
+          <h1 className={styles.title}>
+          With a notification maybe?
+          </h1>
        
         <p className={styles.description}>
           Get started by editing{' '}
