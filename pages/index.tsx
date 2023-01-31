@@ -15,7 +15,7 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a> </h1>
           <h1 className={styles.title}>
-          Commit Mon 30th Jan
+          Commit Tues 31st Jan
           </h1>
           <h1 className={styles.title}>
           With a notifications
