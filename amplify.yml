@@ -9,10 +9,18 @@ frontend:
   phases:
     preBuild:
       commands:
+        - echo "Prebuild cmds"
+        - pwd
+        - ls -las
         - npm ci
     build:
       commands:
+        - echo "Build cmds"
+        - pwd
+        - ls -las
         - npm run build
+        - echo "Build done"
+        - ls -las
   artifacts:
     baseDirectory: out
     files:
